@@ -1,0 +1,30 @@
+.section {
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  flex-direction: column;
+  margin: 0 10% 0 10%;
+}
+.grid-box {
+  background-color: rgb(143, 85, 229);
+  border-radius: 7px;
+  margin: 0 30% 0 30%;
+}
+.is-form-valid {
+  border: 1px solid limegreen;
+  border-left: 15px solid limegreen;
+  box-shadow: 0 0 5px limegreen;
+}
+.is-form-invalid {
+  border: 1px solid orangered;
+  border-left: 15px solid orangered;
+  box-shadow: 0 0 5px orangered;
+}
+.text-success {
+  color: limegreen !important;
+  font-size: 14px !important;
+}
+.text-danger {
+  color: orangered !important;
+  font-size: 14px !important;
+}

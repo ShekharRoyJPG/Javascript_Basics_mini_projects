@@ -1,0 +1,14 @@
+.center{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+    border-radius: 40px;
+}
+body{
+background-image:url(coin.gif);
+background-repeat: no-repeat;
+background-size: 100% 100vh;
+background-position: center center;
+background-attachment: fixed;
+}

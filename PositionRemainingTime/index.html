@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="style.css">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div id="container">
+      <form id="form" autocomplete="off">
+        <label for="date">
+          <h1 style="color: white">Date Of Birth:</h1>
+          <input type="text" maxlength="2" size="2" id="date" placeholder="Date"
+            required />
+          <input type="text" maxlength="2" size="2" id="month"
+            placeholder="Month" autocomplete="on" required />
+          <input type="text" maxlength="4" size="4" id="year" placeholder="Year"
+            required />
+        </label>
+        <button onclick="CoinCount()" id="calbtn">Calculate</button>
+        <br />
+        <br />
+        <span style="color: white" id="age"></span>&nbsp;&nbsp;&nbsp;&nbsp;
+        <span style="color: white" id="months"></span>&nbsp;&nbsp;&nbsp;&nbsp;
+        <span style="color: white" id="days"></span>
+      </form>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="center">
+      <h2 >You have
+        <span id="seconds">0</span>
+        Coins to get a chance in a better position, Use it Wisely !!
+      </h2>
+      <!-- <h1>Don't waste time, Use it wisely </h1> -->
+    </div>
+
+  </body>
+  <script src="app.js"></script>
+
+</html>

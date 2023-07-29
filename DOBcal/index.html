@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <form id="form" autocomplete="off">
+          <label for="date">
+            Date Of Birth:
+            <input type="text" maxlength="2" size="2" id="date" placeholder="Date" required />
+            <input type="text" maxlength="2" size="2" id="month" placeholder="Month" autocomplete="on" required />
+            <input type="text" maxlength="4" size="4" id="year" placeholder="Year" required />
+          </label>
+          <button id="calbtn">Calculate</button>
+          <br />
+          <br />
+          <span id="age"></span>&nbsp;&nbsp;&nbsp;&nbsp;
+          <span id="months"></span>&nbsp;&nbsp;&nbsp;&nbsp;
+          <span id="days"></span>
+        </form>
+      </div>
+</body>
+<script src="app.js"></script>
+</html>
